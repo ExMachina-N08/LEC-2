@@ -25,17 +25,24 @@ main {
 h1 {
   padding-top: 20px;
   padding-left: 20px;
+  padding-bottom: 20px;
   color: rgb(226, 218, 207);
+  font-size: 40px;
 }
 
 img {
   padding-left: 20px;
-  border-radius: 150px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  overflow:hidden;
+
 }
 p {
   padding-left: 20px;
   padding-bottom: 20px;
-  font-size: larger;
+  font-size: 30px;
   color: antiquewhite;
 }
 h2 {
@@ -44,12 +51,21 @@ h2 {
   font-size: larger;
   color: #6b8e90;
 }
+
 footer {
   background-color: #dfeef0;
 }
+
 a.contact {
+  color: purple;
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border
+}
+a.contact:hover {
+  color: salmon;
 }
 ul.interest,
 ul.skill,
@@ -57,7 +73,14 @@ ul.experience,
 ul.extracuricular,
 ul.education {
   margin-left: 45px;
+
+
 }
 li {
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
+}
+.dashed-line{
+  background-color: #dfeef0;
+  border: px dashed
 }
